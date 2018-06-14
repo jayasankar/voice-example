@@ -11,7 +11,7 @@ import java.util.function.Predicate;
 public class WhatIsMyColorIntentHandler implements RequestHandler {
 
     public static final String COLOR_KEY = "COLOR";
-    public static final String COLOR_SLOT = "Color";
+    public static final String COLOR_SLOT = "Colors";
 
     @Override
     public boolean canHandle(HandlerInput handlerInput) {
